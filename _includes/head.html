@@ -1,0 +1,20 @@
+
+<!-- This is so meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- Page Title Conditional -->
+<title>
+  {% if page.title == "home" %}
+    The Military Law Project
+  {% else %}
+    {{page.title}} | The Military Law Project
+  {% endif %}
+</title>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="{{ site.url }}/assets/css/stylesheet.css">
+
+<!-- Javascripts -->
+<script src="{{ site.url }}/assets/js/scripts.js"></script>

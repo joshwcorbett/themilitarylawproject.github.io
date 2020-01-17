@@ -1,0 +1,48 @@
+
+title:            The Military Law project
+description:      null
+url:             "https://themilitarylawproject.com"
+github_username:  joshwcorbett
+
+port: 6969
+
+# Links
+form_url:       "https://forms.gle/Rnpbhp2ZJYWQfnUaA"
+
+# Build settings
+arkdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - sprockets-sass
+  - jekyll-sitemap
+  - jekyll-minifier
+  - jekyll-autoprefixer
+
+sass:
+  sass_dir: assets/css/
+  style: compressed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
