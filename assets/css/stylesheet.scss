@@ -43,7 +43,7 @@ $header-font: $base-font;
 $base-font-weight: 500;
 $header-font-weight: 700;
 
-$base-font-size: 18px;
+$base-font-size: 14px;
 $h1-font-size: $base-font-size * 2.5;
 $h2-font-size: $base-font-size * 2;
 $h3-font-size: $base-font-size * 1.75;
@@ -103,6 +103,7 @@ html,body {
   font-size: $base-font-size;
   font-weight: $base-font-weight;
   color: black;
+  line-height: 1.8;
 }
 h1 {font-size: $h1-font-size}
 h2 {font-size: $h2-font-size}
@@ -152,8 +153,8 @@ a {
   }
   &--rounded {border-radius: 100px}
   &--large {
-    padding: 1em 2em;
-    font-size: calc($base-font * 1.5);
+    padding: 0.7em 1.5em;
+    font-size: calc(16px * 1.2);
   }
   &--social {
     padding: 0.5em;
@@ -268,7 +269,7 @@ a {
   }
 }
 
-// Small Blog Section
+// Blog Section
 .blog-section {
   background-color: $darker;
   text-align: center;
@@ -310,6 +311,19 @@ a {
 .blog-container {
   margin-top: 100px;
   padding-bottom: 3em;
+}
+.no-posts {
+  width: 100%;
+  display: block;
+  text-align: center;
+
+  padding: 2em;
+  border: 2px solid rgba(white,0.35);
+  border-radius: 15px;
+
+  p {
+    opacity: 0.5;
+  }
 }
 
 // 404 Page
@@ -417,7 +431,7 @@ a {
 
 @media screen and (max-width: 767px) {
   html,body {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .site-hero {margin-bottom: 1em}

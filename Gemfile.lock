@@ -5,7 +5,6 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (9.7.4)
       execjs
-    backports (3.15.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     cssminify2 (2.0.1)
@@ -36,10 +35,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-admin (0.9.0)
-      jekyll (>= 3.3, < 5.0)
-      sinatra (~> 1.4)
-      sinatra-contrib (~> 1.4)
     jekyll-autoprefixer (1.0.2)
       autoprefixer-rails (~> 9.3)
     jekyll-feed (0.13.0)
@@ -72,10 +67,6 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.3)
     rack (1.6.12)
-    rack-protection (1.5.5)
-      rack
-    rack-test (1.1.0)
-      rack (>= 1.0, < 3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -83,17 +74,6 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.2.1)
       ffi (~> 1.9)
-    sinatra (1.4.8)
-      rack (~> 1.5)
-      rack-protection (~> 1.4)
-      tilt (>= 1.3, < 3)
-    sinatra-contrib (1.4.7)
-      backports (>= 2.0)
-      multi_json
-      rack-protection
-      rack-test
-      sinatra (~> 1.4.0)
-      tilt (>= 1.3, < 3)
     sprockets (2.12.5)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -118,8 +98,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
-  jekyll-admin (~> 0.9.0)
-  jekyll-autoprefixer (~> 1.0, >= 1.0.2)
+  jekyll-autoprefixer
   jekyll-feed (~> 0.12)
   jekyll-minifier (~> 0.1.10)
   jekyll-sitemap (~> 1.4)

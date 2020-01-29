@@ -1,7 +1,7 @@
 
 title:            The Military Law project
-description:      null
-url:             "https://joshcorbett.com/themilitarylawproject.github.io/"
+description:      Hello World
+url:             ""
 github_username:  joshwcorbett
 
 # Links
@@ -27,20 +27,20 @@ plugins:
   - sprockets-sass
   - jekyll-sitemap
   - jekyll-minifier
-  - jekyll-autoprefixer
+  # - jekyll-autoprefixer
 
 sass:
   sass_dir: assets/css/
   style: compressed
 
 exclude:
-  - .sass-cache/
+  # - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  # - gemfiles/
+  # - Gemfile
+  # - Gemfile.lock
+  # - node_modules/
+  # - vendor/bundle/
+  # - vendor/cache/
+  # - vendor/gems/
+  # - vendor/ruby/
