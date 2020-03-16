@@ -8,7 +8,7 @@ github_username:  joshwcorbett
 form_url:       "https://forms.gle/tDhj2xFkdBFtCWNQ9"
 
 # Build settings
-arkdown: kramdown
+markdown: kramdown
 
 defaults:
   - scope:
