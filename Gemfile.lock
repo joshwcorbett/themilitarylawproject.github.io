@@ -3,8 +3,6 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.7.4)
-      execjs
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     cssminify2 (2.0.1)
@@ -35,8 +33,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-autoprefixer (1.0.2)
-      autoprefixer-rails (~> 9.3)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-minifier (0.1.10)
@@ -98,7 +94,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.0.0)
-  jekyll-autoprefixer
   jekyll-feed (~> 0.12)
   jekyll-minifier (~> 0.1.10)
   jekyll-sitemap (~> 1.4)

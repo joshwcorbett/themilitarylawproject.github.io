@@ -279,7 +279,7 @@ a {
 }
 
 .help-us-section {
-  padding-bottom: 3em;
+  padding: 3em 0 3em 0;
   border-bottom: 2px solid rgba(black,0.15);
 }
 
@@ -328,14 +328,13 @@ a {
 .no-posts {
   width: 100%;
   display: block;
-  text-align: center;
 
   padding: 2em;
   border: 2px solid rgba(white,0.35);
   border-radius: 15px;
 
   p {
-    opacity: 0.5;
+    opacity: 0.75;
   }
 }
 
