@@ -12,4 +12,4 @@ fields:
   description: Title of the post
   default: Post Title
 pages:
-- _posts/post-title-test.md
+- _posts/2020-05-03-post-title-test.md
