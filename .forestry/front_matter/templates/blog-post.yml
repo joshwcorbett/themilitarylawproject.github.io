@@ -11,3 +11,5 @@ fields:
   label: Post Title
   description: Title of the post
   default: Post Title
+pages:
+- _posts/post-title-test.md
